@@ -1,0 +1,86 @@
+Lee todo atentamente seguilo al pie de la letra, pero siempre agregando diseño y creatividad tuya, te doy permiso a sacar lo que quieras de internet, imagenes, diseños web, ideas: Quiero armar una landing de una empresa d logistica. html csss, js
+Identidad Visual – GRUPO HV LOGÍSTICA
+1. Concepto de Marca
+La identidad visual de GRUPO HV LOGÍSTICA transmite alcance global, conectividad,
+movimiento y confiabilidad. Está pensada para una empresa de logística moderna,
+orientada a operaciones B2B y servicios de transporte.
+2. Paleta de Colores
+Colores principales:
+• Naranja HV – #F36B21 (color identitario, acentos, CTA)
+• Negro Carbón – #1E1E1E (fondos principales)
+• Blanco – #FFFFFF (tipografía y contraste)
+Colores secundarios:
+• Gris Oscuro – #4A4A4A
+• Gris Medio – #8A8A8A
+• Gris Claro – #E6E6E6
+
+3. Tipografías
+Tipografía principal: Montserrat
+Uso: títulos, encabezados, branding.
+Pesos recomendados: Bold, SemiBold, Medium.
+Tipografía secundaria: Inter
+Uso: textos largos, párrafos, contenido operativo y web.
+Pesos recomendados: Regular y Medium.
+4. Jerarquía Tipográfica Recomendada
+• H1: Montserrat Bold – 36px
+• H2: Montserrat SemiBold – 28px
+• H3: Montserrat Medium – 22px
+• Body: Inter Regular – 14px
+• Caption: Inter Medium – 12px
+5. Lineamientos para Web
+• Uso predominante de fondos oscuros con tipografía blanca.
+• El color naranja se utiliza para botones, enlaces, íconos y elementos destacados.
+• Diseño limpio, modular y orientado a legibilidad.
+• Íconos simples, lineales y de alto contraste.
+
+6. Estilo Visual Complementario
+• Gráficos inspirados en rutas, redes y flujos.
+• Fotografías reales de logística, transporte y operaciones.
+• Estética moderna, industrial y profesional.
+
+Estos textos no tienen que ser literal, podes mejorarlos:
+
+Sus servicios son: Cargas Peligrosas
+Contamos con unidades con las características y la documentación necesarias para realizar este tipo de Cargas en todo el país.
+Invertimos constantemente en el desarrollo de este rubro garantizando un servicio de calidad y seguro.
+
+Cargas Generales
+Transportamos durmientes, piedras, maquinaria, pallets, azúcar, fideos, cerveza, hierro, mega fardos y más.
+Constantemente incorporamos equipos y tecnología que aseguran una operación exitosa y nos posibilitan tener una mayor cobertura.
+
+Carga de Fertilizante
+Contamos con equipos para todos los tipos de cargas (Granel, Palletizado, Big Bags y Bolsas al piso).
+Día a día son más los clientes que nos eligen, es por eso, que la cantidad de destinos se encuentra en constante crecimiento. Los principales son: Corrientes, Chaco, Tucumán y Salta.
+También disponemos de camiones hacia Misiones, Buenos Aires y Córdoba.
+
+Carga de Harinas
+Es uno de los pilares de nuestra empresa, es por eso, que tenemos personal abocado exclusivamente a este tipo de cargas.
+Realizamos envíos tanto en el mercado interno como a países limítrofes.
+
+Carga de Cosechas Varias
+Después de más de 7 años de experiencia hoy nos posicionamos como una de las empresas líderes en este rubro.
+Estamos presentes en la mayoría de las cosechas en diferentes zonas y épocas (maíz, soja, trigo, girasol, arroz, garbanzo, maní, pasturas, etc).
+
+Carga de Contenedores
+Contamos con cargas de contenedores de 20 y 40 pies estándar y 40 HQ en diferentes puntos del país.
+Modalidades One Way y Round Trip.
+
+Cargas Tailor-Made
+Contamos con los profesionales y la tecnología necesaria para brindar servicios específicos, adaptados 100% a la medida del cliente, con el objetivo de satisfacer sus necesidades de logística y abastecimiento.
+
+Ventajas competitivas:
+• Disponibilidad
+• Atención Full Time
+• Flexibilidad
+• Capacidad resolutiva
+• Alta respuesta en posicionamientos
+• Versatilidad de unidades
+• Control de documentación
+
+Agrega una seccion de clientes: Va a tener 2 filas de imagenes ( por el momento solo vamos a dejar texto: "Foto de cliente aca"). 
+Estas filas van a estar en modo pasarela. 1 fila se desliza de derecha a izquierda y la otra de derecha a izquierda. Que se repitan, es decir crear un loop.
+
+Seccion de contacto con 2 columnas. 1 formulario y otra info de contacto, y ubicacion con un mapa
+
+Las imagenes estan en images, bien detalladas, aplicalas como mas te parezca.
+
