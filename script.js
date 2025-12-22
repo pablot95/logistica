@@ -48,31 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Form Submission Handler
-    const contactForm = document.querySelector('.contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            
-            // Simple validation feedback
-            const btn = contactForm.querySelector('button[type="submit"]');
-            const originalText = btn.innerText;
-            
-            btn.innerText = 'Enviando...';
-            btn.disabled = true;
-            btn.style.opacity = '0.7';
-
-            // Simulate network request
-            setTimeout(() => {
-                alert('¡Gracias por tu mensaje! Nos pondremos en contacto contigo a la brevedad.');
-                contactForm.reset();
-                btn.innerText = originalText;
-                btn.disabled = false;
-                btn.style.opacity = '1';
-            }, 1500);
-        });
-    }
-
     // Hero Animation
     setTimeout(() => {
         const hero = document.querySelector('.hero');
@@ -148,4 +123,46 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('cut', (e) => e.preventDefault());
     document.addEventListener('paste', (e) => e.preventDefault());
     document.addEventListener('dragstart', (e) => e.preventDefault());
+
+    // EmailJS Form Handling
+    const contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const btn = contactForm.querySelector('button[type="submit"]');
+            const originalBtnText = btn.innerText;
+            btn.innerText = 'Enviando...';
+            btn.disabled = true;
+
+            const serviceID = 'service_f33whrn';
+            const templateID = 'template_qfrtwxl';
+
+            // Prepare template parameters
+            // Note: These keys (name, email, subject, message) must match your EmailJS template variables
+            const templateParams = {
+                name: this.nombre.value,
+                email: this.email.value,
+                phone: this.telefono.value,
+                message: this.mensaje.value,
+                subject: `Nuevo contacto web de ${this.nombre.value}`
+            };
+
+            emailjs.send(serviceID, templateID, templateParams)
+                .then(() => {
+                    btn.innerText = '¡Enviado!';
+                    alert('Mensaje enviado con éxito. Nos pondremos en contacto a la brevedad.');
+                    contactForm.reset();
+                    setTimeout(() => {
+                        btn.innerText = originalBtnText;
+                        btn.disabled = false;
+                    }, 3000);
+                }, (err) => {
+                    btn.innerText = originalBtnText;
+                    btn.disabled = false;
+                    console.error('EmailJS Error:', err);
+                    alert('Hubo un error al enviar el mensaje: ' + JSON.stringify(err));
+                });
+        });
+    }
 });
