@@ -106,18 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         el.classList.add('animate-ready');
     });
 
-    // Content Protection (Disable Right Click, Copy, Cut, Paste, Drag)
-    document.addEventListener('contextmenu', (e) => e.preventDefault());
-    
-    document.addEventListener('keydown', (e) => {
-        // Prevent Ctrl+C, Ctrl+X, Ctrl+V, Ctrl+U (View Source), Ctrl+S (Save), F12 (DevTools)
-        if (
-            (e.ctrlKey && (e.key === 'c' || e.key === 'C' || e.key === 'x' || e.key === 'X' || e.key === 'v' || e.key === 'V' || e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S')) ||
-            e.key === 'F12'
-        ) {
-            e.preventDefault();
-        }
-    });
+
 
     document.addEventListener('copy', (e) => e.preventDefault());
     document.addEventListener('cut', (e) => e.preventDefault());
