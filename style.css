@@ -577,6 +577,23 @@ img {
     color: var(--color-gray-medium);
 }
 
+.footer-bottom p {
+    margin-bottom: 0.5rem;
+}
+
+.gokywebs-signature {
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+.gokywebs-signature a {
+    transition: color 0.3s ease;
+}
+
+.gokywebs-signature a:hover {
+    color: var(--color-primary);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container{
