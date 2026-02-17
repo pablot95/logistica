@@ -23,7 +23,6 @@
     --transition-fast: 0.3s ease;
 }
 
-/* Reset & Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -187,7 +186,6 @@ img {
     cursor: pointer;
 }
 
-/* Hero Section */
 .hero {
     height: 100vh;
     background-image: url('images/camion-en-ruta-fondo-montania.jpg');
@@ -323,7 +321,6 @@ img {
     opacity: 1;
 }
 
-/* Advantages Section */
 .advantages {
     background-color: var(--color-bg-dark);
 }
@@ -380,7 +377,6 @@ img {
     color: var(--color-text-gray);
 }
 
-/* Clients Section (Slider) */
 .clients {
     background-color: var(--color-bg-darker);
     overflow: hidden;
@@ -448,7 +444,6 @@ img {
     animation: slideRight 30s linear infinite;
 }
 
-/* Contact Section */
 .contact {
     background-color: var(--color-bg-dark);
 }
@@ -522,7 +517,6 @@ img {
     filter: grayscale(100%) invert(92%) contrast(83%); /* Dark map style */
 }
 
-/* Footer */
 .footer {
     background-color: #000;
     padding: 4rem 0 1rem;
@@ -594,7 +588,7 @@ img {
     color: var(--color-primary);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .container{
         padding: 0;
@@ -680,7 +674,6 @@ img {
     }
 }
 
-/* WhatsApp Float Button */
 .whatsapp-float {
     position: fixed;
     width: 60px;
